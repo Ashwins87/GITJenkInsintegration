@@ -6,7 +6,7 @@ pipeline
 		stage('build')
 		{
             steps {
-                echo "build passed succesfully"
+                echo "build passsed succesfully"
                 bat 'build.bat'
             }
         }
